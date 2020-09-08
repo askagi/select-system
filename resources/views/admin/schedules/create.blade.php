@@ -41,11 +41,11 @@
                                             <label for="">Professor</label>
                                             <select name="teacher_id" class="form-control">
                                                 @foreach($teachers as $g)
-                                               
+
                                                 <option value="{{$g->id}}">{{$g->name}}</option>
-                                                
-                                                @endforeach 
-                                               
+
+                                                @endforeach
+
                                             </select>
                                         </div>
                                     </div>

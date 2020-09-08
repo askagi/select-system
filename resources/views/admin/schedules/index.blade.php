@@ -62,7 +62,7 @@
                                     <hr>
                                     @forelse($gModal->schedules as $schedule)
                                     @if($schedule->day_of_week == 'segunda')
-                                    <li class="ml-4">{{$schedule->start_time}} -- {{$schedule->end_time}} - Prof. {{$teachers->find($schedule->group_id)->name}}</li>
+                                    <li class="ml-4">{{$schedule->start_time}} -- {{$schedule->end_time}} - Prof. {{$schedule->teacher->name}}</li>
 
                                     @endif
                                     @empty
@@ -80,7 +80,7 @@
                                     <hr>
                                     @forelse($gModal->schedules as $schedule)
                                     @if($schedule->day_of_week == 'terca')
-                                    <li class="ml-4">{{$schedule->start_time}} -- {{$schedule->end_time}} - Prof. {{$teachers->find($schedule->group_id)->name}}</li>
+                                    <li class="ml-4">{{$schedule->start_time}} -- {{$schedule->end_time}} - Prof. {{$schedule->teacher->name}}</li>
                                     @endif
                                     @empty
                                     @endforelse
@@ -96,7 +96,7 @@
                                     <hr>
                                     @forelse($gModal->schedules as $schedule)
                                     @if($schedule->day_of_week == 'quarta')
-                                    <li class="ml-4">{{$schedule->start_time}} -- {{$schedule->end_time}} - Prof. {{$teachers->find($schedule->group_id)->name}}</li>
+                                    <li class="ml-4">{{$schedule->start_time}} -- {{$schedule->end_time}} - Prof. {{$schedule->teacher->name}}</li>
                                     @endif
                                     @empty
                                     @endforelse
@@ -113,7 +113,7 @@
                                     <hr>
                                     @forelse($gModal->schedules as $schedule)
                                     @if($schedule->day_of_week == 'quinta')
-                                    <li class="ml-4">{{$schedule->start_time}} -- {{$schedule->end_time}} - Prof. {{$teachers->find($schedule->group_id)->name}}</li>
+                                    <li class="ml-4">{{$schedule->start_time}} -- {{$schedule->end_time}} - Prof. {{$schedule->teacher->name}}</li>
                                     @endif
                                     @empty
                                     @endforelse
@@ -130,7 +130,7 @@
                                     <hr>
                                     @forelse($gModal->schedules as $schedule)
                                     @if($schedule->day_of_week == 'sexta')
-                                    <li class="ml-4">{{$schedule->start_time}} -- {{$schedule->end_time}} - Prof. {{$teachers->find($schedule->group_id)->name}}</li>
+                                    <li class="ml-4">{{$schedule->start_time}} -- {{$schedule->end_time}} - Prof. {{$schedule->teacher->name}}</li>
                                     @endif
                                     @empty
                                     @endforelse
@@ -146,7 +146,7 @@
                                     <hr>
                                     @forelse($gModal->schedules as $schedule)
                                     @if($schedule->day_of_week == 'sabado')
-                                    <li class="ml-4">{{$schedule->start_time}} -- {{$schedule->end_time}} - Prof. {{$teachers->find($schedule->group_id)->name}}</li>
+                                    <li class="ml-4">{{$schedule->start_time}} -- {{$schedule->end_time}} - Prof. {{$schedule->teacher->name}}</li>
                                     @endif
                                     @empty
                                     @endforelse
@@ -156,10 +156,10 @@
 
 
                     </div>
-                    <div class="modal-footer">
+                    <!--<div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                         <button type="button" class="btn btn-primary">Save changes</button>
-                    </div>
+                    </div>  -->
                 </div>
             </div>
         </div>

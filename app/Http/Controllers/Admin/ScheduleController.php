@@ -67,7 +67,7 @@ class ScheduleController extends Controller
         //dd($data);
         $this->schedule->create($data);
         return redirect()->route('dashboard.schedules.index');
-    
+
     }
 
     /**
@@ -89,7 +89,7 @@ class ScheduleController extends Controller
      */
     public function edit($id)
     {
-        
+
     }
 
     /**
