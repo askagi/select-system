@@ -74,14 +74,14 @@ Projeto desenvolvido em 2020 como objeto de estudo/prática em Laravel.
 ### Algumas telas
 
 <div align="center" style="display: flex; align-items: flex-start; justify-content: center; flex-wrap: wrap; gap: 15px 0">
-  <img alt="select-sysystem" title="#select-sysystem" src="./assets/img01.png" width="50%">
-  <img alt="select-sysystem" title="#select-sysystem" src="./assets/img09.png" width="50%">
+  <img alt="select-sysystem" title="#select-sysystem" src="./assets/img01.png" width="49%">
+  <img alt="select-sysystem" title="#select-sysystem" src="./assets/img09.png" width="49%">
   <img alt="select-sysystem" title="#select-sysystem" src="./assets/img02.png" width="">
-  <img alt="select-sysystem" title="#select-sysystem" src="./assets/img03.png" width="50%">
-  <img alt="select-sysystem" title="#select-sysystem" src="./assets/img04.png" width="50%">
+  <img alt="select-sysystem" title="#select-sysystem" src="./assets/img03.png" width="49%">
+  <img alt="select-sysystem" title="#select-sysystem" src="./assets/img04.png" width="49%">
   <img alt="select-sysystem" title="#select-sysystem" src="./assets/img05.png" width="">
-  <img alt="select-sysystem" title="#select-sysystem" src="./assets/img06.png" width="50%">
-  <img alt="select-sysystem" title="#select-sysystem" src="./assets/img07.png" width="50%">
+  <img alt="select-sysystem" title="#select-sysystem" src="./assets/img06.png" width="49%">
+  <img alt="select-sysystem" title="#select-sysystem" src="./assets/img07.png" width="49%">
   <img alt="select-sysystem" title="#select-sysystem" src="./assets/img08.png" width="">
 </div>
 
