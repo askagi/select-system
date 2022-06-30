@@ -71,7 +71,6 @@ Projeto desenvolvido em 2020 como objeto de estudo/prática em Laravel.
 
 ## 🎨 Layout
 
-### Algumas telas
 
 <div align="center" style="display: flex; align-items: flex-start; justify-content: center; flex-wrap: wrap; gap: 15px 0">
   <img alt="select-sysystem" title="#select-sysystem" src="./assets/img01.png" width="49%">
